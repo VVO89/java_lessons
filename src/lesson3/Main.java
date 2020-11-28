@@ -22,7 +22,7 @@ public class Main {
             Random rand = new Random();
             int x = rand.nextInt(10);
 
-            // Пользователь вводит любое число, от 0 до 9
+            // Пользователь вводит любое число, от 0 до 9 (интервал)
             int d = getNumberFromScanner("Введите число от 0 до 9", 0, 9);
 
             n = n - 1;
