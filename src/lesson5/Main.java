@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // создаем массив сотрудников - 5 элементов
+        // создаем массив сотрудников - 5 элементов в массиве
         Employee[] persArray = new Employee[5];
 
         persArray[0] = new Employee("VVO", "VVO@mail.ru", "123", 1000, 28);
