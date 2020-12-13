@@ -6,8 +6,6 @@ public class Cat extends Animals{
     public void run(int valueRun) {
 
         String result = (valueRun <=200)?"Cat run:true":"Cat run:false";
-        limitRun = valueRun;
-
         showResult(result);
 
     }
@@ -16,9 +14,12 @@ public class Cat extends Animals{
     public void jump(double valueHeight) {
 
         String result = (valueHeight <= 2)?"Cat jump:true":"Cat jump:false";
-        limitHeight = valueHeight;
         showResult(result);
 
     }
 
+    @Override
+    public void swim(int valueSwim) {
+        System.out.println("Кот не умеет плавать");
+    }
 }

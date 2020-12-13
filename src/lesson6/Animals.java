@@ -1,13 +1,13 @@
 package lesson6;
 
-public abstract class Animals {
+public class Animals {
 
     protected int limitRun;
     protected int limitSwim;
     protected double limitHeight;
 
     // бежать
-    public void run(int valueRun) {}
+    public  void run(int valueRun) {}
     // плыть
     public void swim(int valueSwim) {}
     // прыгать

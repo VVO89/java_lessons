@@ -13,7 +13,6 @@ public class Dog extends Animals{
     public void swim(int valueSwim) {
 
         String result = (valueSwim <= 10)?"Dog swim:true":"Dog swim:false";
-        limitSwim = valueSwim;
         showResult(result);
 
     }
@@ -22,7 +21,6 @@ public class Dog extends Animals{
     public void run(int valueRun) {
 
         String result = (valueRun <= maxLength)?"Dog run:true":"Dog run:false";
-        limitRun = valueRun;
         showResult(result);
 
     }
